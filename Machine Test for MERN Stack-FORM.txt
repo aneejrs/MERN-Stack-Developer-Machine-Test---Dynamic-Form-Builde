@@ -1,0 +1,46 @@
+Machine Test for MERN Stack Developer
+
+Project Title: Dynamic Form Builder
+
+
+Evaluation Criteria: Component design, state management, form validation, UI responsiveness, and code quality.
+
+
+--Objective:
+-Develop a Dynamic Form Builder in React (Vite) that allows users to create custom forms with configurable fields, labels, and validation rules. 
+-Users should be able to preview and submit the form.
+
+--Task Requirements:
+
+1. Form Builder Interface
+Users should be able to add different types of fields dynamically:
+-Text Input
+-Dropdown (with user-defined options)
+-Checkbox
+-Radio Buttons
+
+--Users should be able to configure:
+-Field Labels
+-Validation Rules (Required, Min/Max Length, etc.)
+-Placeholder Text (if applicable)
+
+2. Form Preview Mode
+
+-Provide a preview mode where users can see how the form will look before submission.
+
+3. Form Submission & Validation
+-Implement form validation based on user-defined rules.
+-Display appropriate error messages for invalid inputs.
+
+4. State Management
+-Use Redux Toolkit or Context API to manage form state.
+
+5. UI/UX Requirements
+-Use Tailwind CSS or Material-UI for styling.
+-Ensure responsiveness for different screen sizes.
+-Use icons and animations to enhance the UX.
+
+--Bonus Features (Optional)
+-Implement drag-and-drop reordering of form fields.
+-Allow users to save the form in local storage and reload it later.
+-Add dark mode support.

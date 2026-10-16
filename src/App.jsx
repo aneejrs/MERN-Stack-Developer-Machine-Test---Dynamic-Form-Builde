@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import {
   Moon,
@@ -22,7 +21,9 @@ function Dashboard() {
     <main className={dark ? "app dark" : "app"}>
       <header className="topbar">
         <a className="brand" href="#home">
-          <span className="brand-icon"><ClipboardList size={23} /></span>
+          <span className="brand-icon">
+            <ClipboardList size={23} />
+          </span>
           <span>FormCraft</span>
         </a>
 
@@ -52,7 +53,9 @@ function Dashboard() {
       <section className="hero" id="home">
         <span className="eyebrow">REACT FORM BUILDER</span>
         <h1>Build forms. Collect responses.</h1>
-        <p>Create custom forms with configurable fields and validation rules.</p>
+        <p>
+          Create custom forms with configurable fields and validation rules.
+        </p>
       </section>
 
       <nav className="mode-tabs">
@@ -73,9 +76,7 @@ function Dashboard() {
 
       {mode === "builder" ? <FormBuilder /> : <FormPreview />}
 
-      <footer className="footer">
-        Built with React, Vite & Context API
-      </footer>
+      <footer className="footer">Built with React, Vite & Context API</footer>
     </main>
   );
 }
