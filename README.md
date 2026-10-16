@@ -1,16 +1,64 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# Dynamic Form Builder 🚀
 
-Currently, two official plugins are available:
+A responsive form builder application built with React that allows users to create, customize, preview, and validate forms dynamically.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+# 🌐Production Deployment
+ 🔗 link : https://react-developer-machine-test-rfgu.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the Oxlint configuration
+- Add Text Input, Dropdown, Checkbox, and Radio Button fields.
+- Customize field labels, placeholders, and options.
+- Configure required fields and minimum/maximum length validation.
+- Preview and submit forms with validation messages.
+- Manage form state using React Context API.
+- Save form configurations using Local Storage.
+- Drag-and-drop field reordering.
+- Responsive UI with dark mode support.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- JavaScript
+- Context API
+- CSS
+- Lucide React
+- Local Storage
+
+
+# 🚧Project Structure 
+
+src/
+
+├── components/
+
+│   ├── FormBuilder.jsx
+
+│   ├── FieldEditor.jsx
+
+│   ├── FormPreview.jsx
+
+│   └── FormField.jsx
+
+├── context/
+
+│   └── FormContext.jsx
+
+├── App.jsx
+
+├── main.jsx
+
+└── index.css
+
+
+## 👨‍💻 Author
+
+**Aneej R Suku**
+
+
+## 📄 License
+
+This project is available under the MIT License.
