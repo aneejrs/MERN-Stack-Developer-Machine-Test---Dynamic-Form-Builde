@@ -1,7 +1,7 @@
 
 # Dynamic Form Builder 🚀
 
-A responsive form builder application built with React and Vite that allows users to create, customize, preview, and validate forms dynamically.
+A responsive form builder application built with React that allows users to create, customize, preview, and validate forms dynamically.
 
 ## ✨ Features
 
