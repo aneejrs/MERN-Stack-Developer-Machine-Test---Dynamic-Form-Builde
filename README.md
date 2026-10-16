@@ -3,6 +3,10 @@
 
 A responsive form builder application built with React that allows users to create, customize, preview, and validate forms dynamically.
 
+
+# 🌐Production Deployment
+ 🔗 link : https://react-developer-machine-test-rfgu.vercel.app/
+
 ## ✨ Features
 
 - Add Text Input, Dropdown, Checkbox, and Radio Button fields.
@@ -28,19 +32,26 @@ A responsive form builder application built with React that allows users to crea
 # 🚧Project Structure 
 
 src/
-├── components/
-│   ├── FormBuilder.jsx
-│   ├── FieldEditor.jsx
-│   ├── FormPreview.jsx
-│   └── FormField.jsx
-├── context/
-│   └── FormContext.jsx
-├── App.jsx
-├── main.jsx
-└── index.css
 
-# 🌐Production Deployment
- 🔗 link : https://react-developer-machine-test-rfgu.vercel.app/
+├── components/
+
+│   ├── FormBuilder.jsx
+
+│   ├── FieldEditor.jsx
+
+│   ├── FormPreview.jsx
+
+│   └── FormField.jsx
+
+├── context/
+
+│   └── FormContext.jsx
+
+├── App.jsx
+
+├── main.jsx
+
+└── index.css
 
 
 ## 👨‍💻 Author
