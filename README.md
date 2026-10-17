@@ -57,7 +57,7 @@ src/
 
 ## 👨‍💻 Author
 
-💼Portfolio: https://my-portfolio-deployment-8zmo.vercel.app/
+💼Portfolio: https://aneejrsuku-portfolio-8zmo.vercel.app
 
 📌LinkedIn : https://www.linkedin.com/in/aneej-r-suku-ba6959217/
 
